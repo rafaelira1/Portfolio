@@ -1,2 +1,2 @@
-# Portifolio-Pessoal
-Desenv plataformas web - Criação de portifólio pessoal
+# Portfólio
+Desenv plataformas web - Criação de portfólio pessoal
