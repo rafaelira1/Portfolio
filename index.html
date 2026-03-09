@@ -1,0 +1,258 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfólio</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <header class="navbar">
+      <span class="navbar__marca">Rafael Lira</span>
+      <nav class="navbar__nav" aria-label="Navegação principal">
+        <a href="#hero" class="navbar__link navbar__link--ativo">Home</a>
+        <a href="#sobre" class="navbar__link">Sobre</a>
+        <a href="#conhecimentos" class="navbar__link">Conhecimentos</a>
+        <a href="#projetos" class="navbar__link">Projetos</a>
+        <a href="#contato" class="navbar__link">Contato</a>
+      </nav>
+    </header>
+
+    <!-- HERO -->
+    <section id="hero" class="hero">
+      <div class="hero__texto">
+        <p class="hero__ola">Olá,</p>
+        <h1 class="hero__nome">Sou o Rafael Lira</h1>
+        <h2 class="hero__cargo">Desenvolvedor SAP ABAP</h2>
+
+        <!-- Ícones sociais SVG -->
+        <div class="hero__sociais" aria-label="Redes sociais">
+          <a
+            href="https://linkedin.com/in/rafael-lira-"
+            class="social__link"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="LinkedIn"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              aria-hidden="true"
+            >
+              <path
+                d="M4.98 3.5C4.98 4.88 3.87 6 2.5 6S.02 4.88.02 3.5C.02 2.12 1.13 1 2.5 1s2.48 1.12 2.48 2.5zM.5 8.5h4V24h-4V8.5zm7.5 0h3.84v2.12h.05c.53-1 1.84-2.12 3.79-2.12C19.74 8.5 21 11.1 21 14.5V24h-4v-8.5c0-2.03-.04-4.64-2.83-4.64-2.83 0-3.26 2.21-3.26 4.49V24H8V8.5z"
+              />
+            </svg>
+          </a>
+          <a
+            href="https://github.com/rafaelira1"
+            class="social__link"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="GitHub"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              aria-hidden="true"
+            >
+              <path
+                d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0 1 12 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"
+              />
+            </svg>
+          </a>
+          <a
+            href="mailto:rafael@email.com"
+            class="social__link"
+            aria-label="Gmail"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              aria-hidden="true"
+            >
+              <path
+                d="M24 5.457v13.909c0 .904-.732 1.636-1.636 1.636h-3.819V11.73L12 16.64l-6.545-4.91v9.273H1.636A1.636 1.636 0 0 1 0 19.366V5.457c0-2.023 2.309-3.178 3.927-1.964L5.455 4.64 12 9.548l6.545-4.910 1.528-1.145C21.69 2.28 24 3.434 24 5.457z"
+              />
+            </svg>
+          </a>
+        </div>
+      </div>
+
+      <div class="hero__foto-wrapper">
+        <div class="hero__blob" aria-hidden="true"></div>
+        <img
+          src="https://i.ibb.co/GfSGvM1j/1741273135526.jpg"
+          alt="Foto de Rafael Lira"
+          class="hero__foto"
+        />
+      </div>
+    </section>
+
+    <main>
+      <!-- SOBRE MIM -->
+      <section id="sobre" class="secao">
+        <div class="secao__container">
+          <h2 class="secao__titulo">Sobre Mim</h2>
+          <div class="secao__divisor" aria-hidden="true"></div>
+          <p class="secao__texto">
+            Sou desenvolvedor SAP ABAP, apaixonado por tecnologia e
+            desenvolvimento de soluções que realmente façam diferença no dia a
+            dia das empresas. Atualmente estou cursando ADS pela Universidade de
+            Fortaleza (UNIFOR) e sou técnico em informática pela EEEP Joaquim
+            Albano.
+          </p>
+          <br />
+          <p class="secao__texto">
+            Atuo no ecossistema SAP S/4HANA, trabalhando com a linguagem de
+            programação ABAP, CDS Views, ABAP Open SQL e integrações REST para
+            conectar sistemas e automatizar processos de negócio. Gosto de
+            entender o problema antes de pensar na solução, buscando sempre
+            desenvolver aplicações que sejam eficientes, escaláveis e úteis para
+            quem vai utilizá-las.
+          </p>
+          <br />
+          <p class="secao__texto">
+            Também tenho conhecimentos em JavaScript, HTML e CSS, o que me ajuda
+            a ter uma visão mais completa das aplicações e a colaborar melhor
+            com diferentes camadas do sistema.
+          </p>
+          <br />
+          <p class="secao__texto">
+            Meu objetivo é criar soluções técnicas que gerem impacto direto nos
+            processos de negócio, priorizando boas práticas de arquitetura,
+            performance e segurança, sempre com foco em resultados mensuráveis
+            para a empresa.
+          </p>
+        </div>
+      </section>
+
+      <!-- CONHECIMENTOS -->
+      <section id="conhecimentos" class="secao secao--alt">
+        <div class="secao__container">
+          <h2 class="secao__titulo">Conhecimentos</h2>
+          <div class="secao__divisor" aria-hidden="true"></div>
+          <ul class="lista-conhecimentos">
+            <li class="lista-conhecimentos__item">SAP ABAP</li>
+            <li class="lista-conhecimentos__item">SAP S/4HANA</li>
+            <li class="lista-conhecimentos__item">CDS Views</li>
+            <li class="lista-conhecimentos__item">SQL / ABAP Open SQL</li>
+            <li class="lista-conhecimentos__item">Integração REST</li>
+            <li class="lista-conhecimentos__item">JavaScript</li>
+            <li class="lista-conhecimentos__item">HTML e CSS</li>
+            <li class="lista-conhecimentos__item">Orientado a Objetos</li>
+            <li class="lista-conhecimentos__item">Clean Code</li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- PROJETOS -->
+      <section id="projetos" class="secao">
+        <div class="secao__container">
+          <h2 class="secao__titulo">Projetos</h2>
+          <div class="secao__divisor" aria-hidden="true"></div>
+          <div
+            class="tabela-wrapper"
+            role="region"
+            aria-label="Tabela de projetos"
+            tabindex="0"
+          >
+            <table class="tabela-projetos">
+              <caption class="tabela-projetos__caption">
+                Lista de projetos desenvolvidos
+              </caption>
+              <thead>
+                <tr>
+                  <th scope="col">Nome do Projeto</th>
+                  <th scope="col">Descrição</th>
+                  <th scope="col">Ano</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td data-label="Nome do Projeto">Integração SAP X WMS</td>
+                  <td data-label="Descrição">
+                    Desenvolvimento e implementação de uma integração
+                    <b>REST</b> entre <b>SAP e WMS</b>, visando otimizar a
+                    gestão de estoque e automatizar a troca de informações entre
+                    os sistemas.
+                  </td>
+                  <td data-label="Ano">2025 - now</td>
+                </tr>
+                <tr>
+                  <td data-label="Nome do Projeto">Suporte AMS</td>
+                  <td data-label="Descrição">
+                    Atuação em <b>Suporte AMS</b> no ecossistema <b>SAP</b>, com
+                    foco na análise e resolução de incidentes, além de
+                    manutenção evolutiva e corretiva em desenvolvimentos ABAP,
+                    atendendo aos módulos <b>FI, TRM, CO, PS, MM, PP e SD</b>.
+                  </td>
+                  <td data-label="Ano">2025 - now</td>
+                </tr>
+                <tr>
+                  <td data-label="Nome do Projeto">Laboratório de Software</td>
+                  <td data-label="Descrição">
+                    Desenvolvimento de um projeto acadêmico para a disciplina
+                    Laboratório de Software, com foco na aplicação prática de
+                    conceitos de desenvolvimento de sistemas, com utilização de
+                    tecnologias web para construção da aplicação.
+                  </td>
+                  <td data-label="Ano">2024</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+      <!-- CONTATO -->
+      <section id="contato" class="secao secao--alt">
+        <div class="secao__container">
+          <h2 class="secao__titulo">Contato</h2>
+          <div class="secao__divisor" aria-hidden="true"></div>
+          <p class="secao__texto">Fique à vontade para entrar em contato:</p>
+          <ul class="lista-contato">
+            <!-- Email -->
+            <li class="lista-contato__item">
+              <span class="lista-contato__icone" aria-hidden="true">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                  <path
+                    d="M24 5.457v13.909c0 .904-.732 1.636-1.636 1.636h-3.819V11.73L12 16.64l-6.545-4.91v9.273H1.636A1.636 1.636 0 0 1 0 19.366V5.457c0-2.023 2.309-3.178 3.927-1.964L5.455 4.64 12 9.548l6.545-4.910 1.528-1.145C21.69 2.28 24 3.434 24 5.457z"
+                  />
+                </svg>
+              </span>
+              <a
+                href="mailto:rafaelirahegas@email.com"
+                class="lista-contato__link"
+                >Email</a
+              >
+            </li>
+            <!-- LinkedIn -->
+            <li class="lista-contato__item">
+              <span class="lista-contato__icone" aria-hidden="true">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                  <path
+                    d="M4.98 3.5C4.98 4.88 3.87 6 2.5 6S.02 4.88.02 3.5C.02 2.12 1.13 1 2.5 1s2.48 1.12 2.48 2.5zM.5 8.5h4V24h-4V8.5zm7.5 0h3.84v2.12h.05c.53-1 1.84-2.12 3.79-2.12C19.74 8.5 21 11.1 21 14.5V24h-4v-8.5c0-2.03-.04-4.64-2.83-4.64-2.83 0-3.26 2.21-3.26 4.49V24H8V8.5z"
+                  />
+                </svg>
+              </span>
+              <a
+                href="https://linkedin.com/in/rafael-lira-"
+                class="lista-contato__link"
+                target="_blank"
+                rel="noopener noreferrer"
+                >LinkedIn</a
+              >
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <!-- RODAPÉ -->
+    <footer class="rodape">
+      <p class="rodape__texto">&copy; 2026 &mdash; Rafael Lira.</p>
+    </footer>
+  </body>
+</html>
